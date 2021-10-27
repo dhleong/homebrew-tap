@@ -4,8 +4,6 @@ class Judo < Formula
   url "https://github.com/dhleong/judo/releases/download/1.15.3/judo-1.15.3.jar"
   sha256 "0dd03ff8dc34ac3e93e4e9dbbea8df831b460ea5427e8321c1126f75633b938c"
 
-  bottle :unneeded
-
   depends_on "openjdk"
 
   def install
